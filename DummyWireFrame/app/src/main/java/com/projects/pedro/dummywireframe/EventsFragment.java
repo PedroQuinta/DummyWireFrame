@@ -13,7 +13,7 @@ import android.view.ViewGroup;
  */
 public class EventsFragment extends Fragment{
 
-    View view;
+    View view; // FIXME what is this for?
 
     public EventsFragment() {
 

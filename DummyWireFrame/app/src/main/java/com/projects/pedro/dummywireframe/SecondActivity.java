@@ -44,6 +44,7 @@ public class SecondActivity extends AppCompatActivity{
         setSupportActionBar(toolbar);
 
         // The use of sharedpreferences is to ensure the transmission of the correct title for the next activity toolbar.
+        // FIXME there are cleaner ways to do this, using Intents
         Bundle aux = getIntent().getExtras();
         if(aux != null){
             toolbar_title = aux.getString("Key");

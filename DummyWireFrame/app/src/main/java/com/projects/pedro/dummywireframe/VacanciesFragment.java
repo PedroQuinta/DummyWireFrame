@@ -11,9 +11,9 @@ import android.view.ViewGroup;
 /**
  * Class that represents the fragment, Vacancies,  used for the tab layout.
  */
-public class VacanciesFragment extends Fragment{
+public class VacanciesFragment extends Fragment{ // FIXME why have a fragment that does nothing
 
-    View view;
+    View view; // FIXME what is this for?
 
     public VacanciesFragment() {
 

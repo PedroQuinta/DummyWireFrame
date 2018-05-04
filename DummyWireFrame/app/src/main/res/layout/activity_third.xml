@@ -19,6 +19,8 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_below="@+id/toolbar_third">
+
+            <!-- FIXME This could have been done dynamically -->
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
