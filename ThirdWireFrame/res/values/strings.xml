@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">FinalWireFrame</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="myimage">myImage</string>
+    <string name="john_doe">John Doe</string>
+    <string name="example_gmail_com">example@gmail.com</string>
+    <string name="info1">info1</string>
+    <string name="info2">info2</string>
+    <string name="info3">info3</string>
+    <string name="info4">info4</string>
+    <string name="info5">info5</string>
+    <string name="subheader">Subheader</string>
+    <string name="sub_info1">sub_info1</string>
+    <string name="sub_info2">sub_info2</string>
+    <string name="sub_info3">sub_info3</string>
+    <string name="search">Search</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+    <string name="meet_mindera">Meet Mindera</string>
+    <string name="day_01">Day 01</string>
+    <string name="day_02">Day 02</string>
+    <string name="day_03">Day 03</string>
+    <string name="open_day_18">Open Day\'18</string>
+    <string name="day_04">Day 04</string>
+    <string name="day_05">Day 05</string>
+    <string name="day_06">Day 06</string>
+    <string name="day_07">Day 07</string>
+    <string name="day_08">Day 08</string>
+    <string name="day_09">Day 09</string>
+    <string name="graduate_program">Graduate Program</string>
+    <string name="meet_mindera_code_amp_culture"><![CDATA[Meet Mindera Code & Culture]]></string>
+    <string name="days">Day 0</string>
+
+</resources>
