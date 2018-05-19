@@ -56,12 +56,13 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         /**
          * Set the title of the toolbar
          */
-        String title = "Meet Mindera";
+        String title = "Meet Mindera"; // FIXME hardcoded strings
         if(getSupportActionBar() != null){
             try{
                 getSupportActionBar().setTitle(title);
             }catch (Exception e){e.printStackTrace();}
         }
+        // FIXME the great wall of code
 
         TextView label = findViewById(R.id.title1_id);
         final String label_text = (String) label.getText();
@@ -94,8 +95,10 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         tabLayout.addOnTabSelectedListener(new TabLayout.ViewPagerOnTabSelectedListener(viewPager));
 
         Button btn = findViewById(R.id.btn1);
-        final String extra_text = (String)btn.getText();
-        final String endTitle = label_text+"_"+extra_text;
+        final String extra_text = (String)btn.getText(); // FIXME code conventions?
+        final String endTitle = label_text+"_"+extra_text; // FIXME hardcoded string concats
+
+        // FIXME what about the other items?
         btn.setOnClickListener(new View.OnClickListener() {
 
             /**
@@ -106,7 +109,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             @Override
             public void onClick(View view) {
                 Bundle temp = new Bundle();
-                temp.putString("Key", endTitle);
+                temp.putString("Key", endTitle); // FIXME hardcoded strings, could be static consts
                 Intent i = new Intent(MainActivity.this, SecondActivity.class);
                 i.putExtras(temp);
                 startActivity(i);
@@ -163,6 +166,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
      */
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+
+        // FIXME nav drawer is displayed behind fragment (android 6.0.1)
 
         int id = item.getItemId();
 
