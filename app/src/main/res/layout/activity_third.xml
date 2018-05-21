@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_height="?attr/actionBarSize"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        elevation="1dp"
+        android:id="@+id/toolbar_third"
+        android:background="@color/colorPrimary"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        xmlns:android="http://schemas.android.com/apk/res/android"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/toolbar_third">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                tools:ignore="ScrollViewSize">
+
+                <View
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@color/colorJumbotron"
+                    android:id="@+id/view_desc"
+                    tools:ignore="RtlHardcoded" />
+
+                <TextView
+                    android:id="@+id/desc"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@+id/view_desc"
+                    android:text="@string/description_01"
+                    android:textColor="@color/viewTitle"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="20dp" />
+
+                <View
+                    android:id="@+id/view_desc_2"
+                    android:layout_width="159dp"
+                    android:layout_height="160dp"
+                    android:layout_toRightOf="@+id/view_desc"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@color/colorJumbotron"
+                    tools:ignore="RtlHardcoded" />
+
+                <TextView
+                    android:id="@+id/desc2"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/desc"
+                    android:layout_toRightOf="@+id/desc"
+                    android:text="@string/description_02"
+                    android:textColor="@color/viewTitle"
+                    tools:ignore="RtlHardcoded" />
+
+                <View
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_below="@+id/desc"
+                    android:background="@color/colorJumbotron"
+                    android:id="@+id/view_desc_3"
+                    tools:ignore="RtlHardcoded" />
+
+                <TextView
+                    android:id="@+id/desc3"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@+id/view_desc_3"
+                    android:text="@string/desciption_03"
+                    android:textColor="@color/viewTitle"
+                    tools:ignore="RtlHardcoded" />
+
+                <View
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_below="@+id/desc2"
+                    android:background="@color/colorJumbotron"
+                    android:id="@+id/view_desc_4"
+                    android:layout_toEndOf="@+id/view_desc_3"
+                    android:layout_toRightOf="@+id/view_desc_3"
+                    tools:ignore="RtlHardcoded" />
+
+                <TextView
+                    android:id="@+id/desc4"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/desc3"
+                    android:layout_toRightOf="@+id/desc3"
+                    android:text="@string/description_04"
+                    android:textColor="@color/viewTitle"
+                    tools:ignore="RtlHardcoded" />
+
+                <View
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_below="@+id/desc3"
+                    android:background="@color/colorJumbotron"
+                    android:id="@+id/view_desc_5"
+                    tools:ignore="RtlHardcoded" />
+
+                <TextView
+                    android:id="@+id/desc5"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@+id/view_desc_5"
+                    android:text="@string/description_05"
+                    android:textColor="@color/viewTitle"
+                    tools:ignore="RtlHardcoded" />
+
+                <View
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_below="@+id/desc4"
+                    android:background="@color/colorJumbotron"
+                    android:id="@+id/view_desc_6"
+                    android:layout_toEndOf="@+id/view_desc"
+                    android:layout_toRightOf="@+id/view_desc"
+                    tools:ignore="RtlHardcoded" />
+
+                <TextView
+                    android:id="@+id/desc6"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toRightOf="@+id/desc5"
+                    android:text="@string/description_06"
+                    android:textColor="@color/viewTitle"
+                    tools:ignore="RtlHardcoded" />
+
+            </RelativeLayout>
+        </ScrollView>
+</RelativeLayout>
